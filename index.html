@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>web3</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1></h1>
+    <header id="header">
+        <div class="contain">
+            <img src="logo.png" alt="Логотип" class="logo">
+            <nav id="nav">
+                <ul>
+                    <li><a href="#link1">Главная</a></li>
+                    <li><a href="#link2">О нас</a></li>
+                    <li><a href="#link3">Контакты</a></li>
+                    <li><a href="#link4">Поддержка</a></li>
+                </ul>
+            </nav>
+            <h1>Once upon a time in Hollywood</h1>
+        </div>
+    </header>
+
+
+    <div class="sidebar">
+      <a href="#">Главная</a>
+      <a href="#">О нас</a>
+      <a href="#">Контакты</a>
+      <a href="#">Поддержка</a>
+    </div>
+
+    <div class="container">
+      <div class="list">
+                <h1>Список гиперссылок</h1>
+                <ul>
+                    <li><a href="http://kubsu.ru">Главная страница kubsu.ru</a></li>
+                    <li><a href="https://kubsu.ru">Главная страница kubsu.ru (HTTPS)</a></li>
+                    <li><a href="https://example.com/image.jpg"><img src="image.jpg" style="width:100px" alt="Ссылка-изображение"></a></li>
+                    <li><a href="/internal-page">Сокращенная ссылка на внутреннюю страницу</a></li>
+                    <li><a href="/">Сокращенная ссылка на главную страницу</a></li>
+                    <li><a href="#fragment">Ссылка на фрагмент текущей страницы</a></li>
+                    <li><a href="http://example.com/?param1=value1&param2=value2&param3=value3">Ссылка с тремя параметрами в URL</a></li>
+                    <li><a href="http://example.com/?id=123">Ссылка с параметром id в URL</a></li>
+                    <li><a href="page.html">Относительная ссылка на страницу в текущем каталоге</a></li>
+                    <li><a href="about/about-page.html">Относительная ссылка на страницу в каталоге about</a></li>
+                    <li><a href="../parent-page.html">Относительная ссылка на страницу в каталоге уровнем выше текущего</a></li>
+                    <li><a href="../../two-levels-up.html">Относительная ссылка на страницу в каталоге двумя уровнями выше</a></li>
+                    <li>Контекстная ссылка в тексте абзаца: <a href="https://example.com">пример ссылки</a>.</li>
+                    <li><a href="https://example.com#fragment">Ссылка на фрагмент страницы стороннего сайта</a></li>
+                    <li>
+                      <div class="image-container">
+                      <img src="image.jpg" style="width:100px" alt="Описание картинки">
+                      <a href="https://example1.com" class="link-area area1" title="Ссылка на сайт 1"></a>
+                      <a href="https://example2.com" class="link-area area2" title="Ссылка на сайт 2"></a>
+                      </div>
+                    </li>
+                    <li><a href="#">Ссылка с пустым href</a></li>
+                    <li><a>Ссылка без href</a></li>
+                    <li><a rel="nofollow" href="http://example.com">Запрещенная для перехода поисковиками</a></li>
+                    <li><a href="http://example.com" rel="noindex">Запрещенная для индексации поисковиками</a></li>
+                    <li>
+                      <ol>
+                          <li><a href="#" title="Первая ссылка">Первая ссылка</a></li>
+                          <li><a href="#" title="Вторая ссылка">Вторая ссылка</a></li>
+                      </ol>
+                    </li>
+                    <li><a href="ftp://username:password@ftp.example.com/file.txt">Ссылка на файл на сервере FTP с авторизацией</a></li>
+                </ul>
+      </div>
+
+
+      <main class="table">
+          <table>
+              <thead>
+                  <tr>
+                      <th colspan="2">Заголовок 1</th>
+                      <th>Заголовок 2</th>
+                      <th>Заголовок 3</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr class="odd">
+                      <td>Строка 1, ячейка 1</td>
+                      <td>Строка 1, ячейка 2</td>
+                      <td>Строка 1, ячейка 3</td>
+                      <td>Строка 1, ячейка 4</td>
+                  </tr>
+                  <tr class="even">
+                      <td>Строка 2, ячейка 1</td>
+                      <td colspan="3">Строка 2, объединенная ячейка</td>
+                  </tr>
+                  <tr class="odd">
+                      <td>Строка 3, ячейка 1</td>
+                      <td>Строка 3, ячейка 2</td>
+                      <td>Строка 3, ячейка 3</td>
+                      <td>Строка 3, ячейка 4</td>
+                  </tr>
+                  <tr class="even">
+                      <td>Строка 4, ячейка 1</td>
+                      <td>Строка 4, ячейка 2</td>
+                      <td colspan="2">Строка 4, объединенная ячейка</td>
+                  </tr>
+                  <tr class="odd">
+                      <td>Строка 5, ячейка 1</td>
+                      <td>Строка 5, ячейка 2</td>
+                      <td>Строка 5, ячейка 3</td>
+                      <td>Строка 5, ячейка 4</td>
+                  </tr>
+                  <tr class="even">
+                      <td>Строка 6, ячейка 1</td>
+                      <td colspan="3">Строка 6, объединенная ячейка</td>
+                  </tr>
+              </tbody>
+          </table>
+      </main>
+
+
+      <div class="form">
+              <h2>Форма</h2>
+
+              <form action="" method="get" type="text" name ="name">
+
+                <label>Введите ФИО</label>
+                <input type="text" required placeholder="ФИО"><br><br>
+
+                <label>Введите номер телефона</label>
+                <input type="tel:" required placeholder="телефон" minlength="11" maxlength="11"><br><br>
+
+                <label>Введите email</label>
+                <input name="field-email" type="email" required placeholder="Введите почту"><br><br>
+
+                <label>Дата</label>
+                <input type="date" required><br><br>
+
+                <label>Выберите пол</label>
+                <label><input type="radio" checked="checked" name="radio-group-1" value="Значение1">Мужской</label>
+                <label><input type="radio" name="radio-group-1" value="Значение2">Женский</label><br><br>
+
+                <label>Выберите язык программирования</label>
+                <select name="field-name-4[]" multiple="multiple">
+                  <option value="Значение1">Java</option>
+                  <option value="Значение2">Python</option>
+                  <option value="Значение3">JavaScript</option>
+                  <option value="Значение3">C#</option>
+                  <option value="Значение3">C++</option>
+                  <option value="Значение3">Pascal</option>
+                  <option value="Значение3">C</option>
+                  <option value="Значение3">PHP</option>
+                </select>
+                <br><br>
+
+                <label>Многострочное текстовое поле:</label>
+                <textarea name="field-name-2" required value="Введите текст"></textarea><br><br>
+
+                <label><input type="checkbox" name="check-1" required>С контрактом ознакомлен</label><br><br>
+
+                <input type="submit" value="Сохранить"><br>
+              </form><br>
+      </div>
+    </div>
+
+
+    <footer id="footer">
+        <div class="container">
+            <p>Бойко Евгений</p>
+        </div>
+    </footer>
+
+
+</body>
+</html>
